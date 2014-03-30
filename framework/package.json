@@ -1,0 +1,50 @@
+{
+    "name": "jing",
+    "version": "0.0.1",
+    "description": "full stack web mvc framework based on koa",
+    "main": "jing.js",
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YuhangGe/Jing"
+    },
+    "keywords": [
+        "web",
+        "app",
+        "http",
+        "application",
+        "framework",
+        "mvc"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "koa" : "~0.5.2",
+        "coffee-script" : "~1.7.1",
+        "koa-router" : "~3.1.2",
+        "less" : "~1.7.0",
+        "node-minify" : "~0.10.2",
+        "node-mysql" : "~0.3.7",
+        "node-sass" : "~0.8.4",
+        "nodemon" : "1.0.17-rc2",
+        "object-merge" : "~2.5.1",
+        "stylus" : "~0.42.3"
+    },
+    "devDependencies": {
+        "should": "^3.1.0",
+        "mocha": "^1.17.0",
+        "supertest": "~0.10.0"
+    },
+    "engines": {
+        "node": ">= 0.11.12"
+    },
+    "readme": "direct web mvc framework",
+    "readmeFilename": "Readme.md",
+    "bugs": {
+        "url": "https://github.com/YuhangGe/Jing/issues"
+    },
+    "homepage": "https://github.com/YuhangGe/Jing",
+    "_id": "jing@0.0.1",
+    "_from": "jing@"
+}

@@ -1,9 +1,7 @@
-var $ = require(FRAMEWORK_PATH + 'lib/util.js');
-var Controller = require(FRAMEWORK_PATH + 'lib/classes/base_controller.js');
+var $ = require(FRAMEWORK_PATH + 'lib/global.js');
 
-
-function SiteController(app) {
-    this.base(app);
+function SiteController(app, request, response) {
+    this.base(app,request, response);
 }
 SiteController.prototype = {
     index_action : function() {
@@ -17,7 +15,7 @@ SiteController.prototype = {
     }
 };
 
-$.inherit(SiteController, Controller);
+$.inherit(SiteController, $.core.BaseController);
 
 exports = module.exports = SiteController;
 

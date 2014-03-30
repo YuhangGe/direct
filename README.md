@@ -1,6 +1,6 @@
-direct
+Jing
 ======
-nodejs web mvc framework
+full stack web mvc framework based on koa
 
 目标为基于nodejs做一个mvc的web框架，类似于php的yii框架，提供一个能够快速开发web项目的基础。
 

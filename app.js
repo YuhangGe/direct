@@ -1,11 +1,11 @@
+'use strict'
 /*
  * change path of framework and config if necessary
  * must be absolute path
  */
 var global_path = {
-    'framework': '/Users/abraham/workspace/direct/framework/',
-    'protected' : '/Users/abraham/workspace/direct/protected/',
-    'config' : '/Users/abraham/workspace/direct/protected/config/'
+    'framework': '/Users/abraham/workspace/jing/framework/',
+    'protected' : '/Users/abraham/workspace/jing/protected/'
 };
 
 /*
@@ -16,9 +16,8 @@ global.PROTECTED_PATH = global_path.protected;
 /*
  * init web app
  */
-var direct = require(global_path.framework + "direct.js");
-var app = direct(global_path.config + "main.js");
+var Jing_app = require(global_path.framework + "jing.js").app;
 /*
  * run app
  */
-app.run();
+Jing_app.run();
