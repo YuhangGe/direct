@@ -20,8 +20,7 @@ var default_config = {
         /*
          * todo in future, may support other render
          */
-        'name' : 'silence',
-        'force_compile' : true
+        'name' : 'silence'
     },
     deploy : {
         /*

@@ -36,7 +36,6 @@ Jing_App.prototype = {
         } else {
             this.config = config;
         }
-        this.config.render.force_compile = this.config.develop;
 
         if(this.config.render.name === 'silence') {
             this.render = require('./lib/render/silence.js')(this);
